@@ -1,0 +1,37 @@
+{
+  "name": "buf-compare",
+  "version": "0.0.0",
+  "description": "Node.js 0.12 Buffer.compare() ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/buf-compare",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "built-in",
+    "core",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "buffer",
+    "buffers",
+    "compare",
+    "comparison",
+    "sort",
+    "order"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
