@@ -1,15 +1,11 @@
 'use strict';
-module.exports = function (a, b) {
+module.exports = Buffer.compare || function (a, b) {
 	if (!Buffer.isBuffer(a) || !Buffer.isBuffer(b)) {
 		throw new TypeError('Arguments must be Buffers');
 	}
 
 	if (a === b) {
 		return 0;
-	}
-
-	if (typeof Buffer.compare === 'function') {
-		return Buffer.compare(a, b);
 	}
 
 	var x = a.length;

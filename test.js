@@ -1,6 +1,7 @@
 'use strict';
 var assert = require('assert');
 var test = require('ava');
+Buffer.compare = undefined;
 var bufCompare = require('./');
 
 test(function (t) {
