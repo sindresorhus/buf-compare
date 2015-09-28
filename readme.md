@@ -33,7 +33,7 @@ See the [`Buffer.compare()` docs](https://nodejs.org/api/buffer.html#buffer_clas
 ## Related
 
 - [buffer-equals](https://github.com/sindresorhus/buffer-equals) - Node.js 0.12 `buffer.equals()` ponyfill
-- [buf-indexof](https://github.com/sindresorhus/buf-indexof) - io.js 1.5.0 (Node.js) `buffer.indexOf()` ponyfill
+- [buf-indexof](https://github.com/sindresorhus/buf-indexof) - Node.js 4.0 `buffer.indexOf()` ponyfill
 
 
 ## License
