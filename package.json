@@ -1,6 +1,6 @@
 {
   "name": "buf-compare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js `Buffer.compare()` ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/buf-compare",
