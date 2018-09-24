@@ -1,3 +1,9 @@
+# Deprecated
+
+Just use [`Buffer.compare()`](https://nodejs.org/api/buffer.html#buffer_class_method_buffer_compare_buf1_buf2). It has been available since Node.js 0.12.
+
+---
+
 # buf-compare [![Build Status](https://travis-ci.org/sindresorhus/buf-compare.svg?branch=master)](https://travis-ci.org/sindresorhus/buf-compare)
 
 > Node.js [`Buffer.compare()`](https://nodejs.org/api/buffer.html#buffer_class_method_buffer_compare_buf1_buf2) [ponyfill](https://ponyfill.com)
